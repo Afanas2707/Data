@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Загрузка данных из CSV-файла
 
 df = pd.read_csv(r"C:\Users\afony\Downloads\archive\PoliceKillingsUs.csv", encoding='cp1252')
-sharerace_df = pd.read_csv(r"C:\Users\afony\Downloads\archive\ShareRaceByCity.csv", encoding='cp1252')
+
 
 # Шаг 1: Найти топ-20 городов
 top_cities = df['city'].value_counts().head(20).index
