@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Загрузка данных из CSV-файла
-
 df = pd.read_csv(r"C:\Users\afony\Downloads\archive\PoliceKillingsUs.csv", encoding='cp1252')
 
 
